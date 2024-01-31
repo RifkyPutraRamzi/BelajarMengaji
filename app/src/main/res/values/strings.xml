@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">BelajarMengaji</string>
+    <string name="title">Belajar Mengaji</string>
+    <string name="mudah">Mudah Pada Anak</string>
+    <string name="greetone">Huruf Hijaiyah</string>
+    <string name="greettwo">Tanda Baris</string>
+    <string name="greetthree">Hukum Baca</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="pass">Kata Sandi</string>
+    <string name="selanjutnya">selanjutnya</string>
+    <string name="mulai">mulai</string>
+    <string name="masuk">masuk</string>
+    <string name="daftar">daftar</string>
+    <string name="huruf">Huruf - Huruf</string>
+    <string name="contohbacaan">Contoh Bacaan</string>
+    <string name="tandabaca">Tanda Baca</string>
+    <string name="waqaf">Tanda Waqaf</string>
+    <string name="izhar">Izhar</string>
+    <string name="idgham">Idgham</string>
+    <string name="bighunnah">Idgham Bighunnah</string>
+    <string name="bilaghunnah">Idgham Bilaghunnah</string>
+    <string name="iqlab">Iqlab</string>
+    <string name="ikhfa">Ikhfa</string>
+    <string name="izharsyafawi">Izhar Syafawi</string>
+    <string name="ikhfasyafawi">Ikhfa Syafawi</string>
+    <string name="idghammimi">Idgham Mutamasilain</string>
+    <string name="kuis">Kuis</string>
+    <string name="Profil">Profil</string>
+    <string name="ubah_kata_sandi">Ubah Kata Sandi</string>
+    <string name="kata_sandi_lama">Kata Sandi Lama</string>
+    <string name="kata_sandi_baru">Kata Sandi Baru</string>
+    <string name="ubah">Ubah</string>
+    <string name="tentang">Tentang</string>
+    <string name="izhartext">Izhar secara bahasa artinya jelas dan izhar halqi adalah hukum bacaan apabila nun mati
+        atau tanwin bertemu dengan salah satu huruf izhar halqi, halqi sendiri berarti tenggorokan,
+        maka cara mengucapkannya harus jelas juga\n</string>
+    <string name="iqlabtext">Iqlab adalah suatu hukum bacaan Alqur’an yang terjadi apabila nun mati atau tanwin bertemu dengan satu huruf saja yaitu huruf ba.
+    Di dalam bacaan ini, bacaan nun mati atau tanwin tidak lagi dibaca sebagai nun atau tanwin berubah menjadi bunyi huruf mim.\n</string>
+    <string name="ikhfatext">Ikhfa artinya menyamarkan, hukum bacaan ini berlaku apabila huruf nun mati atau tanwin bertemu dengann huruf-huruf ikhfa.
+     Jika bertemu dengan huruf-huruf tersebut maka nun mati atau tanwin tersebut harus dibaca samar atau antara bacaan Izhar dan bacaan Idgham.\n</string>
+    <string name="bighunnahtext">Idgham Bighunnah artinya melebur dan disertai dengungan atau yang berarti memasukkan salah satu huruf nun mati atau tanwin ke dalam huruf
+        sesudahnya dan lafal dari idgham bigunnah tersebut haruslah mendengung jika bertemu empat huruf.\n</string>
+    <string name="bilaghunnahtext">Idgham Bilaghunnah artinya melebur tanpa dengung atau maksudnya memasukkan huruf nun mati atau tanwin ke dalam huruf sesudahnya tanpa disertai suara yang mendengung.
+        Hukum bacaan tersebut berlaku jika nun atau tanwin bertemu huruf berikut lam dan ra.\n</string>
+    <string name="izharsyafawitext">Hukum bacaan ini berlaku apabila huruf mim mati bertemu salah satu huruf hijaiyah selain huruf mim dan huruf ba.
+    Cara membaca izhar ini harus dilafalkan dengan jelas pada bibir sambil menutup mulut.\n</string>
+    <string name="ikhfasyafawitext">Berbeda dengan ikhfa haqiqi, pada ikhfa syafawi bukan nun mati yang bertemu dengan huruf ikhfa melainakan huruf mim mati yang bertemu dengan huruf ba.
+    Ikhfa syafawi dibaca dengan cara samar-samar pada bibir dan juga dengan didengungkan.\n</string>
+    <string name="idghammimitext">Idgham mimi atau idgham mutamasilain ini sangat mudah diingat yakni ketika huruf mim mati bertemu dengan huruf mim dan cara melafalkan bacaannya tersebut adalah membaca huruf mim rangkap secara mendengung.\n</string>
+    <string name="assalamualaikum">Assalamualaikum</string>
+    <string name="hukum_baca_mim_mati">Hukum Baca Mim Mati</string>
+    <string name="hukum_baca_nun_mati">Hukum Baca Nun Mati</string>
+    <string name="fathah">Fathah</string>
+    <string name="kasrah">Kasrah</string>
+    <string name="dhammah">Dhammah</string>
+    <string name="fathahtain">Fathahtain</string>
+    <string name="kasrahtain">Kasrahtain</string>
+    <string name="dhammahtain">Dhammahtain</string>
+    <string name="sukun">Sukun</string>
+    <string name="tasydid">Tasydid</string>
+    <string name="keluar">Keluar</string>
+    <string name="soal">Soal</string>
+    <string name="pilihan_a">Pilihan A</string>
+    <string name="pilihan_b">pilihan B</string>
+    <string name="pilihan_c">Pilihan C</string>
+    <string name="pilihan_d">Pilihan D</string>
+    <string name="pilihan_e">Pilihan E</string>
+    <string name="next">next</string>
+    <string name="ulangi">Ulangi</string>
+    <string name="kembali_ke_menu">Kembali Ke Menu</string>
+    <string name="email">Email</string>
+    <string name="konfirmasi_kata_sandi">Konfirmasi Kata Sandi</string>
+    <string name="apresiasi_kuis">Apresiasi Kuis</string>
+    <string name="hasil_jawaban_kuis">Hasil Jawaban Kuis</string>
+    <string name="about_app">Aplikasi ini dibuat dalam rangka untuk mencapai gelar sarjana. Aplikasi ini diperuntukkan kepada siapapun yang ingin belajar mengaji.\n\n</string>
+    <string name="kontak_tertera">Kontak Tertera :</string>
+    <string name="rifkyramzi22_gmail_com">rifkyramzi22@gmail.com\n\n</string>
+</resources>

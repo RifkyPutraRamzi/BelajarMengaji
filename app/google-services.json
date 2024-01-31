@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451561624815",
+    "project_id": "belajarmengaji-e471b",
+    "storage_bucket": "belajarmengaji-e471b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451561624815:android:55be4c518accfa0c47f71a",
+        "android_client_info": {
+          "package_name": "com.example.belajarmengaji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451561624815-8hrppe45qrm1lge7vh9t4eeqogu15ba2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbyWrU9A0auIizDn4IlDgvRzrAQ6LMsg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451561624815-8hrppe45qrm1lge7vh9t4eeqogu15ba2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

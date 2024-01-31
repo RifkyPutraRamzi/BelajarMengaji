@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Tanda.TandaBacaActivity">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_back" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="left"
+        android:text="@string/tandabaca"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/pop_btn_tbc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/fathah" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_fathah"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/fathah" />
+
+                        <ImageButton
+                            android:id="@+id/btn_kasrah"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/kasrah" />
+
+                        <ImageButton
+                            android:id="@+id/btn_dhammah"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/dhammah" />
+
+                        <ImageButton
+                            android:id="@+id/btn_an"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/an" />
+
+                        <ImageButton
+                            android:id="@+id/btn_in"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/in" />
+
+                        <ImageButton
+                            android:id="@+id/btn_un"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/un" />
+
+                        <ImageButton
+                            android:id="@+id/btn_sukun"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/sukun" />
+
+                        <ImageButton
+                            android:id="@+id/btn_tasydid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/tasydid" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/contohbacaan"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/fathah"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_fathahsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fathahsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_fathahdua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fathahdua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_fathahtiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fathahtiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/kasrah"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_kasrahsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/kasrahsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_kasrahdua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/kasrahdua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_kasrahtiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/kasrahtiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/dhammah"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_dhammahsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/dhammahsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_dhammahdua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/dhammahdua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_dhammahtiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/dhammahtiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/fathahtain"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_fathahtainsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fathahtainsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_fathahtaindua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fathahtaindua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_fathahtaintiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/fathahtaintiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/kasrahtain"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_kasrahtainsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/kasrahtainsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_kasrahtaindua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/kasrahtaindua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_kasrahtaintiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/kasrahtaintiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/dhammahtain"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_dhammahtainsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/dhammahtainsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_dhammahtaindua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/dhammahtaindua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_dhammahtaintiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/dhammahtaintiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/sukun"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_sukunsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/sukunsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_sukundua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/sukundua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_sukuntiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/sukuntiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                style="@style/TextContent"
+                android:text="@string/tasydid"
+                android:textSize="30sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:padding="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:id="@+id/btn_tasydidsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/tasydidsatu" />
+
+                    <ImageButton
+                        android:id="@+id/btn_tasydiddua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/tasydiddua" />
+
+                    <ImageButton
+                        android:id="@+id/btn_tasydidtiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/tasydidtiga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/PrimaryColor"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_home_black" />
+
+        <ImageView
+            android:id="@+id/btn_kuis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_kuis_white" />
+
+        <ImageView
+            android:id="@+id/btn_akun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_akun_white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

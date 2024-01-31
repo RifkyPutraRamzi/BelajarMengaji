@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.belajarmengaji">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BelajarMengaji.noActionBar">
+        <activity android:name=".Quiz.HasilActivity"></activity>
+        <activity android:name=".Quiz.QuizMengajiActivity" />
+        <activity android:name=".Quiz.MenuQuizActivity" />
+        <activity android:name=".Profile.AboutActivity" />
+        <activity android:name=".Profile.ChangePassActivity"/>
+        <activity android:name=".Profile.MenuProfileActivity" />
+        <activity android:name=".Tanda.TandaBarisActivity" />
+        <activity android:name=".Hukum.HukumMimMatiActivity" />
+        <activity android:name=".Hukum.HukumBacaMenuActivity" />
+        <activity android:name=".Hukum.IdghamActivity" />
+        <activity android:name=".Hukum.IkhfaActivity" />
+        <activity android:name=".Hukum.IzharActivity" />
+        <activity android:name=".Hukum.IqlabActivity" />
+        <activity android:name=".Hukum.BighunnahActivity" />
+        <activity android:name=".Hukum.BilaghunnahActivity" />
+        <activity android:name=".Hukum.IzharSyafawiActivity" />
+        <activity android:name=".Hukum.IkhfaSyafawiActivity" />
+        <activity android:name=".Hukum.IdghamMimiActivity" />
+        <activity android:name=".Hukum.HukumNunMatiActivity" />
+        <activity android:name=".Tanda.TandaBacaActivity" />
+        <activity android:name=".Tanda.TandaWaqafActivity" />
+        <activity android:name=".Hijaiyah.HijaiyahActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Sign.SignUpActivity" />
+        <activity android:name=".Sign.SignInActivity" />
+        <activity android:name=".GreetingThreeActivity" />
+        <activity android:name=".GreetingTwoActivity" />
+        <activity android:name=".GreetingOneActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
